@@ -1,0 +1,5 @@
+URL for cell site location:
+https://www.ertyu.org/steven_nikkel/cancellsites.html
+
+Command for running process with dependencies:
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.0,org.mongodb.spark:mongo-spark-connector_2.11:2.3.0 testStream.py
